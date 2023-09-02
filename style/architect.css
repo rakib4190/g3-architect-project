@@ -126,8 +126,10 @@ main {
 }
 
 .fact-card-container {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+
 }
 
 .card {
@@ -153,7 +155,7 @@ main {
 }
 
 /* sponspors section style */
-.spondpors-container {
+.sponspors-container {
     margin-top: 180px;
 }
 
@@ -186,19 +188,19 @@ main {
     }
 
     nav,
-    .teams-container,
-    .fact-card-container {
+    .teams-container {
         flex-direction: column;
     }
 
     .teams-photo,
+    .fact-card-container,
     .sponspors-image {
         grid-template-columns: 1fr;
     }
 
-    .sponspors-image {
-        margin-left: 100px;
-    }
+    /* .sponspors-image {
+        margin-left: 0 auto;
+    } */
 
     .teams-content {
         margin-left: 20px;
@@ -228,9 +230,14 @@ main {
         grid-template-columns: 1fr;
     }
 
+    .fact-card-container,
+    .sponspors-image {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
     .teams-content {
         margin-left: 30px;
     }
-
 
 }

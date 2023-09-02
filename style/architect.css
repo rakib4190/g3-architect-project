@@ -6,6 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* navbar styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -29,11 +30,41 @@ nav li {
     font-weight: 500;
     font-size: 1rem;
     margin-right: 30px;
-
-
 }
 
 nav li a {
     text-decoration: none;
     color: #424242;
+}
+
+/* banner style */
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #131313;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #727272;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 32px;
 }

@@ -7,12 +7,15 @@
 }
 
 /* navbar styles */
+header {
+    padding: 50px 240px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 240px;
-    background: rgba(255, 144, 14, 0.10);
 }
 
 .nav-title {
@@ -67,4 +70,33 @@ nav li a {
     font-size: 1.25rem;
     font-weight: 400;
     margin-top: 32px;
+}
+
+.banner img {
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* responsive styles */
+/* small devices */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+}
+
+/* medium devices */
+@media screen and (min-width: 577px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }

@@ -89,7 +89,6 @@ main {
 .teams-container {
     display: flex;
     align-items: center;
-
 }
 
 .teams-photo {
@@ -119,6 +118,39 @@ main {
     color: #131313;
 }
 
+/* fact secttion style */
+.fact-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.fact-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.card .card-stats {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.card .card-title {
+    font-weight: 600px;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    color: #727272
+}
 
 /* responsive styles */
 /* small devices */

@@ -160,7 +160,8 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container,
+    .fact-card-container {
         flex-direction: column;
     }
 
@@ -170,6 +171,12 @@ main {
 
     .teams-content {
         margin-left: 20px;
+    }
+
+    .fact-card-container {
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
     }
 
 }

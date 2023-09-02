@@ -5,3 +5,35 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.nav-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-right: 30px;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
